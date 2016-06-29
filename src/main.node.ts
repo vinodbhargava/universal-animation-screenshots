@@ -67,6 +67,11 @@ export function ngApp(req, res) {
     htmlString = html;
     
     res.send(html);
+    for(var i=0; i <50; i++) {
+        webshot(html, './screenshots/image_'+i+'.png', webshotOptions, function(err) {
+                    console.log('webshot method called')
+        });
+    }
     // trying to take snapshots here in the callback
   });
 

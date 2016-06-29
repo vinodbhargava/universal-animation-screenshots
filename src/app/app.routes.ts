@@ -1,5 +1,5 @@
 import { RouterConfig } from '@angular/router';
-import {Home} from './home';
+import {Home} from './home/home.component';
 import {About} from './app.component';
 
 export const routes: RouterConfig = [

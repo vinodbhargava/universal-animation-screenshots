@@ -7,5 +7,5 @@
 npm-debug.log
 
 /dist/
-
+/screenshots/
 .idea

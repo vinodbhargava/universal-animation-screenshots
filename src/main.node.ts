@@ -67,6 +67,7 @@ export function ngApp(req, res) {
     htmlString = html;
     
     res.send(html);
+    // trying to take snapshots here in the callback
   });
 
   // function takeScreenshots(valueString) {
